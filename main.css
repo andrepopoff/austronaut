@@ -1,0 +1,43 @@
+body {
+    background: #483d8b;
+}
+
+#circle {
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    background: grey;
+    position: absolute;
+    z-index: 1;
+    left: 462px;
+    top: 120px
+}
+
+#face {
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 2;
+}
+
+#glass {
+    position: absolute;
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    z-index: 2;
+    left: 462px;
+    top: 120px;
+    background: radial-gradient(
+            circle farthest-side,
+            grey,
+            black
+    );;
+    opacity: 50%;
+}
+
+#austronaut {
+    position: absolute;
+    z-index: 3;
+}
